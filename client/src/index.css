@@ -1,9 +1,9 @@
 :root {
-  --primary: #232F3E;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #272f32;
+  --primary: #87b2b9;
+  --secondary: #717f6b;
+  --tertiary: #962408;
+  --light: #f8eeee;
+  --dark: #4d493d;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -42,6 +42,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  padding: 1%;
 }
 
 h2 {
@@ -64,6 +65,10 @@ h6 {
   font-size: 1rem;
 }
 
+ul {
+  list-style: none;
+}
+
 p {
   font-size: 1.1rem;
   margin-top: 0;
@@ -81,17 +86,19 @@ a:hover {
 
 header {
   background: var(--primary);
+  font-family:'Times New Roman', Times, serif;
 }
 
 header a {
   color: var(--light);
+  font-family:'Times New Roman', Times, serif;
 }
 
 button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
-  border-radius: .5rem;
+  border-radius: .1rem;
   border: none;
   outline: none;
   cursor: pointer;
