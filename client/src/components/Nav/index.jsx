@@ -9,7 +9,10 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/orderHistory">
-              Order History
+              Order History 
+            </Link>
+            <Link to="/weather">
+              Weather 
             </Link>
           </li>
           <li className="mx-1">
@@ -42,8 +45,8 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag">🛍️ </span>
-        SHOP
+          <span role="img" aria-label="shopping bag"></span>
+        Travel Planner
         </Link>
       </h1>
 

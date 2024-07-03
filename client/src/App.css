@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+#fivedayforecast {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: black;
+  text-align: center;
+}
+
+.current-weather {
+  text-align: center;
+  box-shadow: black 0px 2px 8px 0px;
+  color: black;
+}
